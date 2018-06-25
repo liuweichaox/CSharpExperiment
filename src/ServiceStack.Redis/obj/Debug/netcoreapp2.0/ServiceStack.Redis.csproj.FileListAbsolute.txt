@@ -1,0 +1,11 @@
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\bin\Debug\netcoreapp2.0\ServiceStack.Redis.deps.json
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\bin\Debug\netcoreapp2.0\ServiceStack.Redis.runtimeconfig.json
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\bin\Debug\netcoreapp2.0\ServiceStack.Redis.runtimeconfig.dev.json
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\bin\Debug\netcoreapp2.0\ServiceStack.Redis.dll
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.csprojAssemblyReference.cache
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.csproj.CoreCompileInputs.cache
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.AssemblyInfoInputs.cache
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.AssemblyInfo.cs
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\bin\Debug\netcoreapp2.0\ServiceStack.Redis.pdb
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.dll
+C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\ServiceStack.Redis\obj\Debug\netcoreapp2.0\ServiceStack.Redis.pdb
