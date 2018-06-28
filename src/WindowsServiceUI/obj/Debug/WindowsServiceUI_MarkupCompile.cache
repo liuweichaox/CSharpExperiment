@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Administrator\Desktop\NetCoe\NetCoreDemo\WindowsServiceUI\obj\Debug\
+C:\Users\weichao.liu\Desktop\NetCore\src\WindowsServiceUI\obj\Debug\
 WindowsServiceUI
 none
 false
 DEBUG;TRACE
-C:\Users\Administrator\Desktop\NetCoe\NetCoreDemo\WindowsServiceUI\App.xaml
+C:\Users\weichao.liu\Desktop\NetCore\src\WindowsServiceUI\App.xaml
 11151548125
 
-9542078401
-161897974789
+9483334171
+161071982734
 MainWindow.xaml;
 
 True

@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\weichao.liu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\NetCoe\\NetCoreDemo\\LinqDemo\\LinqDemo.csproj",
+      "projectUniqueName": "C:\\Users\\weichao.liu\\Desktop\\NetCore\\src\\LinqDemo\\LinqDemo.csproj",
       "projectName": "LinqDemo",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\NetCoe\\NetCoreDemo\\LinqDemo\\LinqDemo.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\NetCoe\\NetCoreDemo\\LinqDemo\\obj\\",
+      "projectPath": "C:\\Users\\weichao.liu\\Desktop\\NetCore\\src\\LinqDemo\\LinqDemo.csproj",
+      "packagesPath": "C:\\Users\\weichao.liu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\weichao.liu\\Desktop\\NetCore\\src\\LinqDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\weichao.liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
