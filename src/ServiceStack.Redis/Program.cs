@@ -39,7 +39,7 @@ namespace ServiceStack.Redis
         static void Main(string[] args)
         {
             //在Redis中存储常用的5种数据类型：String,Hash,List,SetSorted set
-            var client = new RedisClient("127.0.0.1", 6379,"password");
+            var client = new RedisClient("127.0.0.1", 6379,"password"); 
             //AddString(client);
             //AddHash(client);
             //AddList(client);

@@ -41,3 +41,14 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\TaskDemo\obj\Debug\netcoreapp2.0
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.AssemblyInfo.cs
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.pdb
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\bin\Debug\netcoreapp2.0\TaskDemo.deps.json
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\bin\Debug\netcoreapp2.0\TaskDemo.runtimeconfig.json
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\bin\Debug\netcoreapp2.0\TaskDemo.runtimeconfig.dev.json
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\bin\Debug\netcoreapp2.0\TaskDemo.dll
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\bin\Debug\netcoreapp2.0\TaskDemo.pdb
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.csprojAssemblyReference.cache
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.csproj.CoreCompileInputs.cache
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.AssemblyInfoInputs.cache
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.AssemblyInfo.cs
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.dll
+C:\Users\weichao.liu\Desktop\NetCore\src\TaskDemo\obj\Debug\netcoreapp2.0\TaskDemo.pdb
