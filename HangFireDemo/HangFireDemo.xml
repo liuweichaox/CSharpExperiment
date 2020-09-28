@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HangFireDemo</name>
+    </assembly>
+    <members>
+        <member name="T:HangFireDemo.DashboardAuthorizationFilter">
+            <summary>
+            Hangfire仪表盘配置授权
+            </summary>
+        </member>
+    </members>
+</doc>

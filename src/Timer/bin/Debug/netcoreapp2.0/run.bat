@@ -1,1 +1,0 @@
-dotnet C:\Users\Administrator\Desktop\NetCoe\NetCoreDemo\Timer\bin\Debug\netcoreapp2.0\timer.dll
