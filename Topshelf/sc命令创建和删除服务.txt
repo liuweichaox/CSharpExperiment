@@ -1,0 +1,22 @@
+﻿sc命令创建和删除服务
+安装服务
+
+sc create 服务名 binPath= "C:\Users\Administrator\Desktop\win32srvDemo\win32srvdemo\Debug\win32srvDemo.exe"
+注：
+
+服务名：指创建的Windows服务名
+
+binPath：指Windows服务程序的路径
+
+2、配置服务
+
+sc config 服务名 start=AUTO
+3、开启服务
+
+net start 服务名
+4、关闭服务
+
+net stop 服务名
+5、删除服务
+
+sc delete 服务名
