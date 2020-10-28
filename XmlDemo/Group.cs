@@ -9,10 +9,10 @@ namespace XmlDemo
 
     public class Group
     {
-        /* Set the element name and namespace of the XML element.
-        By applying an XmlElementAttribute to an array,  you instruct
-        the XmlSerializer to serialize the array as a series of XML
-        elements, instead of a nested set of elements. */
+        /* 设置XML元素的元素名称和名称空间。
+         通过将XmlElementAttribute应用于数组，您可以指示
+         XmlSerializer将数组序列化为一系列XML
+         元素，而不是嵌套的元素集。 */
 
         [XmlElement(ElementName = "Members", Namespace = "http://www.cpandl.com")]
         public Employee[] Employees;

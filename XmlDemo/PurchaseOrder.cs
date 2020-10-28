@@ -26,6 +26,7 @@ namespace XmlDemo
         public decimal TotalCost;
     }
 
+    
     public class Address
     {
         // XmlAttribute属性指示XmlSerializer序列化

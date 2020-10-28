@@ -9,7 +9,7 @@ namespace XmlDemo
     {
         static void Main(string[] args)
         {
-            // Read and write purchase orders.
+            //读写采购订单。
             Program t = new Program();
             t.CreatePO("po.xml");
             t.ReadPO("po.xml");
@@ -47,7 +47,7 @@ namespace XmlDemo
             i1.Calculate();
 
             //将项目插入数组。
-            OrderedItem[] items = { i1 };
+            OrderedItem[] items = { i1, i1 };
             po.OrderedItems = items;
             //计算总费用。
             decimal subTotal = new decimal();
@@ -65,31 +65,31 @@ namespace XmlDemo
 
         protected void ReadPO(string filename)
         {
-            // Creates an instance of the XmlSerializer class;
-            // specifies the type of object to be deserialized.
+            //创建XmlSerializer类的实例；
+            //指定要反序列化的对象的类型。
             XmlSerializer serializer = new XmlSerializer(typeof(PurchaseOrder));
-            // If the XML document has been altered with unknown
-            // nodes or attributes, handles them with the
-            // UnknownNode and UnknownAttribute events.
+            //如果XML文档已被更改为未知
+            //节点或属性，使用
+            // UnknownNode和UnknownAttribute事件。
             serializer.UnknownNode += new
             XmlNodeEventHandler(serializer_UnknownNode);
             serializer.UnknownAttribute += new
             XmlAttributeEventHandler(serializer_UnknownAttribute);
 
-            // A FileStream is needed to read the XML document.
+            //需要FileStream来读取XML文档。
             FileStream fs = new FileStream(filename, FileMode.Open);
-            // Declares an object variable of the type to be deserialized.
+            //声明要反序列化类型的对象变量。
             PurchaseOrder po;
-            // Uses the Deserialize method to restore the object's state
-            // with data from the XML document. */
+            //使用反序列化方法还原对象的状态
+            //来自XML文档的数据。 * /
             po = (PurchaseOrder)serializer.Deserialize(fs);
-            // Reads the order date.
+            //读取订单日期。
             Console.WriteLine("OrderDate: " + po.OrderDate);
 
-            // Reads the shipping address.
+            //读取送货地址。
             Address shipTo = po.ShipTo;
             ReadAddress(shipTo, "Ship To:");
-            // Reads the list of ordered items.
+            //读取订购商品列表。
             OrderedItem[] items = po.OrderedItems;
             Console.WriteLine("Items to be shipped:");
             foreach (OrderedItem oi in items)
@@ -101,7 +101,7 @@ namespace XmlDemo
                 oi.Quantity + "\t" +
                 oi.LineTotal);
             }
-            // Reads the subtotal, shipping cost, and total cost.
+            //读取小计，运输成本和总成本。
             Console.WriteLine(
             "\n\t\t\t\t\t Subtotal\t" + po.SubTotal +
             "\n\t\t\t\t\t Shipping\t" + po.ShipCost +
@@ -111,7 +111,7 @@ namespace XmlDemo
 
         protected void ReadAddress(Address a, string label)
         {
-            // Reads the fields of the Address.
+            //读取地址的字段。
             Console.WriteLine(label);
             Console.Write("\t" +
             a.Name + "\n\t" +
@@ -137,19 +137,19 @@ namespace XmlDemo
 
         public void SerializeObject(string filename)
         {
-            // Create the XmlSerializer.
+            //创建XmlSerializer。
             XmlSerializer s = new XmlSerializer(typeof(Group));
 
-            // To write the file, a TextWriter is required.
+            //要写入文件，需要一个TextWriter。
             TextWriter writer = new StreamWriter(filename);
 
-            /* Create an instance of the group to serialize, and set
-               its properties. */
+            /*创建要序列化的组的实例，并进行设置
+                其属性。 */
             Group group = new Group();
             group.GroupID = 10.089f;
             group.IsActive = false;
 
-            group.HexBytes = new byte[1] { Convert.ToByte(100) };
+            group.HexBytes = new byte[2] { Convert.ToByte(100), Convert.ToByte(200) };
 
             Employee x = new Employee();
             Employee y = new Employee();
@@ -164,13 +164,13 @@ namespace XmlDemo
             mgr.Level = 4;
             group.Manager = mgr;
 
-            /* Add a number and a string to the
-            ArrayList returned by the ExtraInfo property. */
+            /* 将数字和字符串添加到
+             ArrayList由ExtraInfo属性返回。 */
             group.ExtraInfo = new ArrayList();
             group.ExtraInfo.Add(42);
             group.ExtraInfo.Add("Answer");
 
-            // Serialize the object, and close the TextWriter.
+            //序列化对象，然后关闭TextWriter。
             s.Serialize(writer, group);
             writer.Close();
         }
@@ -183,11 +183,12 @@ namespace XmlDemo
             Console.WriteLine(g.Manager.Name);
             Console.WriteLine(g.GroupID);
             Console.WriteLine(g.HexBytes[0]);
+            Console.WriteLine(g.HexBytes[1]);
             foreach (Employee e in g.Employees)
             {
                 Console.WriteLine(e.Name);
             }
         }
     }
-    
+
 }
