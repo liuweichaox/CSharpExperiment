@@ -20,5 +20,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\liu\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_DependencyValidation_Analyzers Condition=" '$(PkgMicrosoft_DependencyValidation_Analyzers)' == '' ">C:\Users\liu\.nuget\packages\microsoft.dependencyvalidation.analyzers\0.11.0</PkgMicrosoft_DependencyValidation_Analyzers>
   </PropertyGroup>
 </Project>

@@ -11,6 +11,9 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Microsoft.DependencyValidation.Analyzers/0.11.0": {
+        "type": "package"
+      },
       "Microsoft.EntityFrameworkCore/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -1848,6 +1851,34 @@
         "ref/xamarinwatchos10/_._",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.DependencyValidation.Analyzers/0.11.0": {
+      "sha512": "3xBVhMsM4o9cDpsvmlv78T1FG+cTH8i6bjl1Irk6hoIwEc6Ekoz4mKAR6Hn5M/2G2ZsHNrYBNwGkgF7aiw74UA==",
+      "type": "package",
+      "path": "microsoft.dependencyvalidation.analyzers/0.11.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/Microsoft.DependencyValidation.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/de/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/es/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/fr/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/it/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/ja/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/ko/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/pl/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/pt-BR/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/ru/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/tr/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/zh-HANS/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "analyzers/dotnet/zh-HANT/Microsoft.DependencyValidation.Analyzers.resources.dll",
+        "microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512",
+        "microsoft.dependencyvalidation.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.EntityFrameworkCore/2.0.3": {
@@ -6004,6 +6035,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Microsoft.DependencyValidation.Analyzers >= 0.11.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -6053,6 +6085,10 @@
       "netcoreapp2.0": {
         "targetAlias": "netcoreapp2.0",
         "dependencies": {
+          "Microsoft.DependencyValidation.Analyzers": {
+            "target": "Package",
+            "version": "[0.11.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[2.0.3, )"

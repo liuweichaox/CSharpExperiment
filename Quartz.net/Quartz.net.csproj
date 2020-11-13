@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.DependencyValidation.Analyzers" Version="0.11.0" />
     <PackageReference Include="Quartz" Version="3.0.5" />
     <PackageReference Include="TimedJob" Version="2.0.0" />
   </ItemGroup>
