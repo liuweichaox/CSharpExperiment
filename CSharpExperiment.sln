@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timer", "Timer\Timer.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elasticsearch", "Elasticsearch\Elasticsearch.csproj", "{C38D7A6B-39A3-4F64-AC6A-855D853B5328}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceStack.Redis", "ServiceStack.Redis\ServiceStack.Redis.csproj", "{DDBB6521-43BF-46E2-B3AF-5597AB5F2827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "ServiceStack.Redis\RedisDemo.csproj", "{DDBB6521-43BF-46E2-B3AF-5597AB5F2827}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB", "MongoDB\MongoDB.csproj", "{9DFA8326-0531-4124-A7F5-147615B9E0C4}"
 EndProject
@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "委托", "委托\委托.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireDemo", "HangFireDemo\HangFireDemo.csproj", "{2B7A6DA5-F72D-4F86-A06D-0DE52E4B1186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDemo", "XmlDemo\XmlDemo.csproj", "{B6D94662-4D31-4FB5-9452-C8BC993C9A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDemo", "XmlDemo\XmlDemo.csproj", "{B6D94662-4D31-4FB5-9452-C8BC993C9A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRDemo", "MediatRDemo\MediatRDemo.csproj", "{046F8E76-210B-4D1F-A51B-4CB8BC21C752}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{B6D94662-4D31-4FB5-9452-C8BC993C9A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6D94662-4D31-4FB5-9452-C8BC993C9A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6D94662-4D31-4FB5-9452-C8BC993C9A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046F8E76-210B-4D1F-A51B-4CB8BC21C752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F8E76-210B-4D1F-A51B-4CB8BC21C752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046F8E76-210B-4D1F-A51B-4CB8BC21C752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046F8E76-210B-4D1F-A51B-4CB8BC21C752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
