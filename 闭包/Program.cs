@@ -6,12 +6,21 @@ namespace 闭包
     {
         static void Main(string[] args)
         {
-            Func<int, Func<int, int>> func = a => b => a + b;
-            Func<int, int> func1 = func(2);
-            Console.WriteLine(func1(5));
-            Console.WriteLine(func1(7));      
-      
-           
+            Func<Func<int>> act = () =>
+            {
+                var count = 0;
+                Func<int> func = () =>
+                {
+                    count++;
+                    return count;
+                };
+                return func;
+            };
+
+            var func = act();
+            Console.WriteLine(func());
+            Console.WriteLine(func());
+            Console.WriteLine(func());
         }
     }
 }
