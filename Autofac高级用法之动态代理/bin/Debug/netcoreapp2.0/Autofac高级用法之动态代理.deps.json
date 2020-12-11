@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "a4778fc57dc11c1fbb2f1e6379cbbb95e01cb47f"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,8 @@
       "Autofac高级用法之动态代理/1.0.0": {
         "dependencies": {
           "Autofac": "4.8.1",
-          "Autofac.Extras.DynamicProxy": "4.4.0"
+          "Autofac.Extras.DynamicProxy": "4.4.0",
+          "Microsoft.DependencyValidation.Analyzers": "0.11.0"
         },
         "runtime": {
           "Autofac高级用法之动态代理.dll": {}
@@ -20,7 +21,10 @@
           "System.ComponentModel": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.1/Autofac.dll": {}
+          "lib/netstandard1.1/Autofac.dll": {
+            "assemblyVersion": "4.8.1.0",
+            "fileVersion": "4.8.1.0"
+          }
         }
       },
       "Autofac.Extras.DynamicProxy/4.4.0": {
@@ -29,7 +33,10 @@
           "Castle.Core": "4.2.1"
         },
         "runtime": {
-          "lib/netstandard1.3/Autofac.Extras.DynamicProxy.dll": {}
+          "lib/netstandard1.3/Autofac.Extras.DynamicProxy.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
         }
       },
       "Castle.Core/4.2.1": {
@@ -45,9 +52,13 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
+          "lib/netstandard1.3/Castle.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.1.0"
+          }
         }
       },
+      "Microsoft.DependencyValidation.Analyzers/0.11.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
@@ -128,16 +139,6 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -171,16 +172,6 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.IO/4.3.0": {
@@ -429,6 +420,13 @@
       "sha512": "sha512-XSNA0Gc1Zu33L+8+/3Tqt+aFu8QWS8UenVHZ7RenIP5wJfhoLrA4PnNscpxReeo5aBq8PDoGnV8rNaOzIOUo/w==",
       "path": "castle.core/4.2.1",
       "hashPath": "castle.core.4.2.1.nupkg.sha512"
+    },
+    "Microsoft.DependencyValidation.Analyzers/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xBVhMsM4o9cDpsvmlv78T1FG+cTH8i6bjl1Irk6hoIwEc6Ekoz4mKAR6Hn5M/2G2ZsHNrYBNwGkgF7aiw74UA==",
+      "path": "microsoft.dependencyvalidation.analyzers/0.11.0",
+      "hashPath": "microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",

@@ -31,3 +31,15 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Autofac高级用法之动态代�
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.pdb
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\bin\Debug\netcoreapp2.0\Autofac高级用法之动态代理.deps.json
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\bin\Debug\netcoreapp2.0\Autofac高级用法之动态代理.runtimeconfig.json
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\bin\Debug\netcoreapp2.0\Autofac高级用法之动态代理.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\bin\Debug\netcoreapp2.0\Autofac高级用法之动态代理.dll
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\bin\Debug\netcoreapp2.0\Autofac高级用法之动态代理.pdb
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.dll
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.pdb
+D:\GitHub\CSharpExperiment\Autofac高级用法之动态代理\obj\Debug\netcoreapp2.0\Autofac高级用法之动态代理.genruntimeconfig.cache

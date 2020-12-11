@@ -30,3 +30,15 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\IPAddressDemo\obj\Debug\netcorea
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.AssemblyInfo.cs
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.pdb
+D:\GitHub\CSharpExperiment\IPAddressDemo\bin\Debug\netcoreapp2.0\IPAddressDemo.deps.json
+D:\GitHub\CSharpExperiment\IPAddressDemo\bin\Debug\netcoreapp2.0\IPAddressDemo.runtimeconfig.json
+D:\GitHub\CSharpExperiment\IPAddressDemo\bin\Debug\netcoreapp2.0\IPAddressDemo.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\IPAddressDemo\bin\Debug\netcoreapp2.0\IPAddressDemo.dll
+D:\GitHub\CSharpExperiment\IPAddressDemo\bin\Debug\netcoreapp2.0\IPAddressDemo.pdb
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.dll
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.pdb
+D:\GitHub\CSharpExperiment\IPAddressDemo\obj\Debug\netcoreapp2.0\IPAddressDemo.genruntimeconfig.cache

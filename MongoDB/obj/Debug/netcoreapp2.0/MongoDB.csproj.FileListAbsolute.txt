@@ -9,3 +9,15 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\MongoDB\bin\Debug\netcoreapp2.0\
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.pdb
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\MongoDB\bin\Debug\netcoreapp2.0\MongoDB.deps.json
+D:\GitHub\CSharpExperiment\MongoDB\bin\Debug\netcoreapp2.0\MongoDB.runtimeconfig.json
+D:\GitHub\CSharpExperiment\MongoDB\bin\Debug\netcoreapp2.0\MongoDB.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\MongoDB\bin\Debug\netcoreapp2.0\MongoDB.dll
+D:\GitHub\CSharpExperiment\MongoDB\bin\Debug\netcoreapp2.0\MongoDB.pdb
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.dll
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.pdb
+D:\GitHub\CSharpExperiment\MongoDB\obj\Debug\netcoreapp2.0\MongoDB.genruntimeconfig.cache

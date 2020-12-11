@@ -20,3 +20,15 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Quartz.net\obj\Debug\netcoreapp2
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.pdb
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\Quartz.net\bin\Debug\netcoreapp2.0\Quartz.net.deps.json
+D:\GitHub\CSharpExperiment\Quartz.net\bin\Debug\netcoreapp2.0\Quartz.net.runtimeconfig.json
+D:\GitHub\CSharpExperiment\Quartz.net\bin\Debug\netcoreapp2.0\Quartz.net.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\Quartz.net\bin\Debug\netcoreapp2.0\Quartz.net.dll
+D:\GitHub\CSharpExperiment\Quartz.net\bin\Debug\netcoreapp2.0\Quartz.net.pdb
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.dll
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.pdb
+D:\GitHub\CSharpExperiment\Quartz.net\obj\Debug\netcoreapp2.0\Quartz.net.genruntimeconfig.cache

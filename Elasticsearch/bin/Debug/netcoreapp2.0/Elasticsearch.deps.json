@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7d7e1b561632e005fb8e9a6c1dc3d5e87f31563e"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "Elasticsearch/1.0.0": {
         "dependencies": {
           "Elasticsearch.Net": "6.1.0",
+          "Microsoft.DependencyValidation.Analyzers": "0.11.0",
           "NEST": "6.1.0"
         },
         "runtime": {
@@ -25,7 +26,10 @@
           "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Elasticsearch.Net.dll": {}
+          "lib/netstandard1.3/Elasticsearch.Net.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.3.0": {
@@ -48,6 +52,7 @@
           "System.Threading": "4.3.0"
         }
       },
+      "Microsoft.DependencyValidation.Analyzers/0.11.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "NEST/6.1.0": {
         "dependencies": {
@@ -61,7 +66,10 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Nest.dll": {}
+          "lib/netstandard1.3/Nest.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.1.0.0"
+          }
         }
       },
       "System.Collections/4.3.0": {
@@ -159,16 +167,6 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.IO/4.3.0": {
@@ -437,6 +435,13 @@
       "sha512": "sha512-P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
       "path": "microsoft.csharp/4.3.0",
       "hashPath": "microsoft.csharp.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.DependencyValidation.Analyzers/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xBVhMsM4o9cDpsvmlv78T1FG+cTH8i6bjl1Irk6hoIwEc6Ekoz4mKAR6Hn5M/2G2ZsHNrYBNwGkgF7aiw74UA==",
+      "path": "microsoft.dependencyvalidation.analyzers/0.11.0",
+      "hashPath": "microsoft.dependencyvalidation.analyzers.0.11.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",

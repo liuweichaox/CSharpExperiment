@@ -43,23 +43,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\89370\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
+      "projectUniqueName": "D:\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
       "projectName": "ClassDemo",
-      "projectPath": "E:\\Github\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
-      "packagesPath": "C:\\Users\\liu\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\CSharpExperiment\\ClassDemo\\obj\\",
+      "projectPath": "D:\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
+      "packagesPath": "C:\\Users\\89370\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\CSharpExperiment\\ClassDemo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\89370\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -105,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

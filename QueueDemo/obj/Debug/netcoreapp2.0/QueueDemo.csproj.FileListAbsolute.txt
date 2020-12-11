@@ -51,3 +51,14 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\QueueDemo\obj\Debug\netcoreapp2.
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.AssemblyInfo.cs
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.pdb
+D:\GitHub\CSharpExperiment\QueueDemo\bin\Debug\netcoreapp2.0\QueueDemo.deps.json
+D:\GitHub\CSharpExperiment\QueueDemo\bin\Debug\netcoreapp2.0\QueueDemo.runtimeconfig.json
+D:\GitHub\CSharpExperiment\QueueDemo\bin\Debug\netcoreapp2.0\QueueDemo.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\QueueDemo\bin\Debug\netcoreapp2.0\QueueDemo.dll
+D:\GitHub\CSharpExperiment\QueueDemo\bin\Debug\netcoreapp2.0\QueueDemo.pdb
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.dll
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.pdb
+D:\GitHub\CSharpExperiment\QueueDemo\obj\Debug\netcoreapp2.0\QueueDemo.genruntimeconfig.cache
