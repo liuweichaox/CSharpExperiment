@@ -35,8 +35,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDemo", "SingletonD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac高级用法之动态代理", "Autofac高级用法之动态代理\Autofac高级用法之动态代理.csproj", "{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF_Core_DbFirst_Demo", "EF_Core_DbFirst_Demo\EF_Core_DbFirst_Demo.csproj", "{2B8036DD-F709-4BB0-901B-66BDFD57D932}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceServerDemo", "WebServiceServerDemo\WebServiceServerDemo.csproj", "{505B02B5-22A4-457A-9459-0530717B397F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClientDemo", "WebServiceClientDemo\WebServiceClientDemo.csproj", "{D1F6E33D-67C4-40EF-B1C7-77A2E2F8A6FF}"
@@ -137,10 +135,6 @@ Global
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B8036DD-F709-4BB0-901B-66BDFD57D932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B8036DD-F709-4BB0-901B-66BDFD57D932}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B8036DD-F709-4BB0-901B-66BDFD57D932}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B8036DD-F709-4BB0-901B-66BDFD57D932}.Release|Any CPU.Build.0 = Release|Any CPU
 		{505B02B5-22A4-457A-9459-0530717B397F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{505B02B5-22A4-457A-9459-0530717B397F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505B02B5-22A4-457A-9459-0530717B397F}.Release|Any CPU.ActiveCfg = Release|Any CPU
