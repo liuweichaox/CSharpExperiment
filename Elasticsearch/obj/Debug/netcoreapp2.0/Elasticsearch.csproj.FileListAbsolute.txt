@@ -20,3 +20,15 @@ C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Elasticsearch\obj\Debug\netcorea
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.AssemblyInfo.cs
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.dll
 C:\Users\weichao.liu\Desktop\NetCoe\NetCoreDemo\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.pdb
+D:\GitHub\CSharpExperiment\Elasticsearch\bin\Debug\netcoreapp2.0\Elasticsearch.deps.json
+D:\GitHub\CSharpExperiment\Elasticsearch\bin\Debug\netcoreapp2.0\Elasticsearch.runtimeconfig.json
+D:\GitHub\CSharpExperiment\Elasticsearch\bin\Debug\netcoreapp2.0\Elasticsearch.runtimeconfig.dev.json
+D:\GitHub\CSharpExperiment\Elasticsearch\bin\Debug\netcoreapp2.0\Elasticsearch.dll
+D:\GitHub\CSharpExperiment\Elasticsearch\bin\Debug\netcoreapp2.0\Elasticsearch.pdb
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.csprojAssemblyReference.cache
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.AssemblyInfoInputs.cache
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.AssemblyInfo.cs
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.csproj.CoreCompileInputs.cache
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.dll
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.pdb
+D:\GitHub\CSharpExperiment\Elasticsearch\obj\Debug\netcoreapp2.0\Elasticsearch.genruntimeconfig.cache

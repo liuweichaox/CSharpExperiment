@@ -17,6 +17,7 @@ namespace MyCICD
         {
             Console.WriteLine("http://localhost:5000/swagger/index.html");
             ConfigurationRoot = GetConfiguration();
+
             var processIDs = new int[0];
             while (true)
             {
@@ -232,11 +233,10 @@ namespace MyCICD
             Console.WriteLine("开始运行");
             var sourcePath = ConfigurationRoot["SourcePath"];
             var publishDir = $"{sourcePath}/Publish";
-            var publishProject = ConfigurationRoot["PublishProject"];
             var proceddIDs = new List<int>();
             foreach (var projectPath in Directory.GetDirectories(publishDir))
             {
-                var processStartInfo = new ProcessStartInfo("dotnet", $"{projectPath}/{Path.GetFileNameWithoutExtension(publishProject)}.dll")
+                var processStartInfo = new ProcessStartInfo("dotnet", $"{projectPath}/{Path.GetFullPath(projectPath).Split("\\").Last()}.dll")
                 {
                     RedirectStandardOutput = true,
                     WorkingDirectory = projectPath,
