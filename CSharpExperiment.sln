@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDemo", "TaskDemo\TaskDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeDemo", "DateTimeDemo\DateTimeDemo.csproj", "{0A436A02-59C8-447D-A49F-94B6BC9D01EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebDemo", "CoreWebDemo\CoreWebDemo.csproj", "{FEECD84E-7341-427F-A6CC-A7127E98A718}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemIODemo", "SystemIODemo\SystemIODemo.csproj", "{FFBF6AC8-7405-4711-849E-97CF9CA54C8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{E772FB8D-2533-4AF6-9FAF-9AD6A95EB36C}"
@@ -34,8 +32,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPAddressDemo", "IPAddressDemo\IPAddressDemo.csproj", "{E2D80769-53D2-4366-90F5-9557441131B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDemo", "SingletonDemo\SingletonDemo.csproj", "{FD89F258-C503-4690-96D1-91BE29840CD5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiDemo", "CoreApiDemo\CoreApiDemo.csproj", "{1FC671A3-2342-4D0A-A46C-F217E2500253}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac高级用法之动态代理", "Autofac高级用法之动态代理\Autofac高级用法之动态代理.csproj", "{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}"
 EndProject
@@ -69,7 +65,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDemo", "XmlDemo\XmlDemo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRDemo", "MediatRDemo\MediatRDemo.csproj", "{046F8E76-210B-4D1F-A51B-4CB8BC21C752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCICD", "MyCICD\MyCICD.csproj", "{06D4BDBB-BF36-4E2E-A270-5E6F7637B62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCICD", "MyCICD\MyCICD.csproj", "{06D4BDBB-BF36-4E2E-A270-5E6F7637B62F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,10 +105,6 @@ Global
 		{0A436A02-59C8-447D-A49F-94B6BC9D01EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A436A02-59C8-447D-A49F-94B6BC9D01EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A436A02-59C8-447D-A49F-94B6BC9D01EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEECD84E-7341-427F-A6CC-A7127E98A718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEECD84E-7341-427F-A6CC-A7127E98A718}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEECD84E-7341-427F-A6CC-A7127E98A718}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEECD84E-7341-427F-A6CC-A7127E98A718}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFBF6AC8-7405-4711-849E-97CF9CA54C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFBF6AC8-7405-4711-849E-97CF9CA54C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFBF6AC8-7405-4711-849E-97CF9CA54C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -141,10 +133,6 @@ Global
 		{FD89F258-C503-4690-96D1-91BE29840CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD89F258-C503-4690-96D1-91BE29840CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD89F258-C503-4690-96D1-91BE29840CD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1FC671A3-2342-4D0A-A46C-F217E2500253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FC671A3-2342-4D0A-A46C-F217E2500253}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FC671A3-2342-4D0A-A46C-F217E2500253}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FC671A3-2342-4D0A-A46C-F217E2500253}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
