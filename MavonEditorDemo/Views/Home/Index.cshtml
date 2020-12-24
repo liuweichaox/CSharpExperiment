@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "笔记";
+    Layout = null;
+}
+@*https://gitee.com/wCHCw/mavonEditor*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dong blog</title>
+    <link href="../lib/mavon-editor/dist/css/index.css" rel="stylesheet" />
+    <script src="../lib/mavon-editor/dist/mavon-editor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="main">
+    </div>
+    <script>
+        Vue.use(MavonEditor)
+        new Vue({
+            'el': '#main',
+            data: {
+                value: "MrakDown Start"
+            },
+            template: '<mavon-editor v-model="value" ref=md @@imgAdd="$imgAdd"></mavon-editor>',
+            methods: {
+                $imgAdd: function (pos, file) {
+                    //在这里上传图片
+                    console.log(pos)
+                    console.log(file)
+                }
+            }
+        })
+    </script>
+</body>
+</html>
