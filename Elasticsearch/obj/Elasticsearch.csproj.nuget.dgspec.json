@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj": {}
+    "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj": {
+    "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj",
+        "projectUniqueName": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj",
         "projectName": "Elasticsearch",
-        "projectPath": "D:\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj",
+        "projectPath": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\Elasticsearch\\Elasticsearch.csproj",
         "packagesPath": "C:\\Users\\89370\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\CSharpExperiment\\Elasticsearch\\obj\\",
+        "outputPath": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\Elasticsearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\89370\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,11 +65,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
