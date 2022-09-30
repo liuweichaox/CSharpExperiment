@@ -5,6 +5,7 @@
     <projectFile>ClassDemo/ClassDemo.csproj</projectFile>
     <projectFile>CoreApiDemo/CoreApiDemo.csproj</projectFile>
     <projectFile>CoreWebDemo/CoreWebDemo.csproj</projectFile>
+    <projectFile>DataFlows/DataFlows.csproj</projectFile>
     <projectFile>DateTimeDemo/DateTimeDemo.csproj</projectFile>
     <projectFile>EF_Core_DbFirst_Demo/EF_Core_DbFirst_Demo.csproj</projectFile>
     <projectFile>Elasticsearch/Elasticsearch.csproj</projectFile>
@@ -39,6 +40,9 @@
     <projectFile>委托/委托.csproj</projectFile>
     <projectFile>闭包/闭包.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -59,57 +63,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavonEditorDemo/MavonEditorDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MavonEditorDemo/MavonEditorDemo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpExperiment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpExperiment.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,19 +110,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MavonEditorDemo">
+}</component>
+  <component name="RunManager" selected=".NET Project.DataFlows">
     <configuration name="闭包" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -213,6 +168,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/ClassDemo/ClassDemo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DataFlows" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DataFlows/DataFlows.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -888,7 +861,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605157479979</updated>
       <workItem from="1605157485922" duration="6343000" />
-      <workItem from="1664342013811" duration="329000" />
+      <workItem from="1664342013811" duration="1432000" />
+      <workItem from="1664497947875" duration="383000" />
     </task>
     <servers />
   </component>
@@ -910,96 +884,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1605163909778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909778" />
-    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1605163909777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909777" />
-    <state width="1877" height="375" key="GridCell.Tab.4.bottom" timestamp="1605163909778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909778" />
-    <state width="1877" height="375" key="GridCell.Tab.4.center" timestamp="1605163909778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909778" />
-    <state width="1877" height="375" key="GridCell.Tab.4.left" timestamp="1605163909778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909778" />
-    <state width="1877" height="375" key="GridCell.Tab.4.right" timestamp="1605163909778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605163909778" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1605157535710">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1605157535710" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1605159841792">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605159841792" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
