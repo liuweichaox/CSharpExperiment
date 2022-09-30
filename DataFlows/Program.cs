@@ -2,25 +2,25 @@
 
 using System.Threading.Tasks.Dataflow;
 
-var actionBlock=new ActionBlock<int>((msg) =>
-{
-    Console.WriteLine("ActionBlock receive:"+msg);
-});
+var actionBlock = new ActionBlock<int>((msg) => { Console.WriteLine("ActionBlock receive:" + msg); });
 for (int i = 0; i < 100; i++)
 {
     await actionBlock.SendAsync(i);
 }
 
 
-var bufferBlock=new BufferBlock<int>();
+var bufferBlock = new BufferBlock<int>();
 for (int i = 0; i < 100; i++)
 {
     await bufferBlock.SendAsync(i);
 }
 
-while (true)
+Task.Run(async () =>
 {
-   var msg=await bufferBlock.ReceiveAsync();
-   Console.WriteLine("BufferBlock receive:"+msg);
-}
+    while (true)
+    {
+        var msg = await bufferBlock.ReceiveAsync();
+        Console.WriteLine("BufferBlock receive:" + msg);
+    }
+});
 Console.ReadKey();
