@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MavonEditorDemo", "MavonEdi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlows", "DataFlows\DataFlows.csproj", "{496B67F5-3CDC-4EB3-8196-C21596A3D6EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Channels", "Channels\Channels.csproj", "{0F8AE099-BF51-46FD-8F62-384E92F276D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{496B67F5-3CDC-4EB3-8196-C21596A3D6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496B67F5-3CDC-4EB3-8196-C21596A3D6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{496B67F5-3CDC-4EB3-8196-C21596A3D6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8AE099-BF51-46FD-8F62-384E92F276D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8AE099-BF51-46FD-8F62-384E92F276D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8AE099-BF51-46FD-8F62-384E92F276D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8AE099-BF51-46FD-8F62-384E92F276D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
