@@ -8,32 +8,29 @@ for (int i = 0; i < 100; i++)
     await actionBlock.SendAsync(i);
 }
 
+actionBlock.Complete();
 
 var bufferBlock = new BufferBlock<int>();
-for (int i = 0; i < 100; i++)
-{
-    await bufferBlock.SendAsync(i);
-}
-
 Task.Run(async () =>
 {
-    while (true)
+    while (!bufferBlock.Completion.IsCompleted)
     {
         var msg = await bufferBlock.ReceiveAsync();
         Console.WriteLine("BufferBlock receive:" + msg);
     }
 });
 
+for (int i = 0; i < 100; i++)
+{
+    await bufferBlock.SendAsync(i);
+}
+bufferBlock.Complete();
+
 var transformBlock = new TransformBlock<int, string>((input) =>
 {
     var output = input.ToString();
     return "output "+output;
 }); 
-
-for (int i = 0; i < 100; i++)
-{
-    await transformBlock.SendAsync(i);
-}
 
 Task.Run(async () =>
 {
@@ -43,4 +40,11 @@ Task.Run(async () =>
         Console.WriteLine("TransformBlock receive:" + msg);
     }
 });
+
+for (int i = 0; i < 100; i++)
+{
+    await transformBlock.SendAsync(i);
+}
+
+
 Console.ReadKey();

@@ -64,7 +64,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpExperiment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpExperiment.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFlows/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataFlows/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -862,7 +862,7 @@
       <updated>1605157479979</updated>
       <workItem from="1605157485922" duration="6343000" />
       <workItem from="1664342013811" duration="1432000" />
-      <workItem from="1664497947875" duration="383000" />
+      <workItem from="1664497947875" duration="1275000" />
     </task>
     <servers />
   </component>
