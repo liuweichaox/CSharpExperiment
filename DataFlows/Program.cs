@@ -23,4 +23,24 @@ Task.Run(async () =>
         Console.WriteLine("BufferBlock receive:" + msg);
     }
 });
+
+var transformBlock = new TransformBlock<int, string>((input) =>
+{
+    var output = input.ToString();
+    return "output "+output;
+}); 
+
+for (int i = 0; i < 100; i++)
+{
+    await transformBlock.SendAsync(i);
+}
+
+Task.Run(async () =>
+{
+    while (true)
+    {
+        var msg = await transformBlock.ReceiveAsync();
+        Console.WriteLine("TransformBlock receive:" + msg);
+    }
+});
 Console.ReadKey();
