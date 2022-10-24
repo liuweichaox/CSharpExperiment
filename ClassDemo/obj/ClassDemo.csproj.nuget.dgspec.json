@@ -1,31 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj": {}
+    "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj": {
+    "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
+        "projectUniqueName": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj",
         "projectName": "ClassDemo",
-        "projectPath": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
-        "packagesPath": "C:\\Users\\89370\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\89370\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\obj\\",
+        "projectPath": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj",
+        "packagesPath": "/Users/liuweichao/.nuget/packages/",
+        "outputPath": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\89370\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/liuweichao/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "net50": {
             "targetAlias": "net5.0",
             "projectReferences": {}
           }
@@ -37,7 +35,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "net50": {
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.DependencyValidation.Analyzers": {
@@ -45,41 +43,7 @@
               "version": "[0.11.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
         }
       }
     }
