@@ -63,48 +63,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" afterDir="false" />
-    </list>
+    <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -912,7 +871,7 @@
       <workItem from="1605157485922" duration="6343000" />
       <workItem from="1664342013811" duration="1432000" />
       <workItem from="1664497947875" duration="2122000" />
-      <workItem from="1666626249959" duration="610000" />
+      <workItem from="1666626249959" duration="751000" />
     </task>
     <servers />
   </component>
