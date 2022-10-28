@@ -23,7 +23,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {}
           }
@@ -35,7 +35,7 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.DependencyValidation.Analyzers": {
@@ -43,7 +43,28 @@
               "version": "[0.11.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

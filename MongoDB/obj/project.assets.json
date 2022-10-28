@@ -5326,7 +5326,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

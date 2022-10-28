@@ -63,7 +63,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="" />
+    <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -872,6 +880,7 @@
       <workItem from="1664342013811" duration="1432000" />
       <workItem from="1664497947875" duration="2122000" />
       <workItem from="1666626249959" duration="751000" />
+      <workItem from="1666876478295" duration="16000" />
     </task>
     <servers />
   </component>
@@ -879,7 +888,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
