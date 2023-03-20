@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace 闭包
+namespace ClosureDemo
 {
     class Program
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Autofac高级用法之动态代理
+namespace AutofacDynamicProxyDemo
 {
     /// <summary>
     /// 通过静态代理实现AOP

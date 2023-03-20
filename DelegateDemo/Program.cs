@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace 委托
+namespace DelegateDemo
 {
     class Program
     {

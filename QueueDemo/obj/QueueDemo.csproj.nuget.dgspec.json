@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liuweichao/Github/CSharpExperiment/QueueDemo/QueueDemo.csproj": {}
+    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/QueueDemo/QueueDemo.csproj": {}
   },
   "projects": {
-    "/Users/liuweichao/Github/CSharpExperiment/QueueDemo/QueueDemo.csproj": {
+    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/QueueDemo/QueueDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuweichao/Github/CSharpExperiment/QueueDemo/QueueDemo.csproj",
+        "projectUniqueName": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/QueueDemo/QueueDemo.csproj",
         "projectName": "QueueDemo",
-        "projectPath": "/Users/liuweichao/Github/CSharpExperiment/QueueDemo/QueueDemo.csproj",
+        "projectPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/QueueDemo/QueueDemo.csproj",
         "packagesPath": "/Users/liuweichao/.nuget/packages/",
-        "outputPath": "/Users/liuweichao/Github/CSharpExperiment/QueueDemo/obj/",
+        "outputPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/QueueDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuweichao/.nuget/NuGet/NuGet.Config"
@@ -55,11 +55,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

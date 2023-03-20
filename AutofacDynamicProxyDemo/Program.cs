@@ -2,7 +2,7 @@
 using Autofac.Extras.DynamicProxy;
 using System;
 
-namespace Autofac高级用法之动态代理
+namespace AutofacDynamicProxyDemo
 {
     class Program
     {

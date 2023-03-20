@@ -29,13 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPAddressDemo", "IPAddressD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDemo", "SingletonDemo\SingletonDemo.csproj", "{FD89F258-C503-4690-96D1-91BE29840CD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac高级用法之动态代理", "Autofac高级用法之动态代理\Autofac高级用法之动态代理.csproj", "{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacDynamicProxyDemo", "AutofacDynamicProxyDemo\AutofacDynamicProxyDemo.csproj", "{5DA232D5-616F-4BEE-BEF4-B1AACBC7B28A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceServerDemo", "WebServiceServerDemo\WebServiceServerDemo.csproj", "{505B02B5-22A4-457A-9459-0530717B397F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClientDemo", "WebServiceClientDemo\WebServiceClientDemo.csproj", "{D1F6E33D-67C4-40EF-B1C7-77A2E2F8A6FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "闭包", "闭包\闭包.csproj", "{1E04AF2B-F258-495A-92C2-144AB5AF2D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClosureDemo", "ClosureDemo\ClosureDemo.csproj", "{1E04AF2B-F258-495A-92C2-144AB5AF2D53}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.net", "Quartz.net\Quartz.net.csproj", "{C9D561EC-91E4-42BF-9CAF-EB9B3992409B}"
 EndProject
@@ -51,7 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "ServiceStack.R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB", "MongoDB\MongoDB.csproj", "{9DFA8326-0531-4124-A7F5-147615B9E0C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "委托", "委托\委托.csproj", "{EDDB14AD-300B-4308-A4CB-155B140287F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateDemo", "DelegateDemo\DelegateDemo.csproj", "{EDDB14AD-300B-4308-A4CB-155B140287F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireDemo", "HangFireDemo\HangFireDemo.csproj", "{2B7A6DA5-F72D-4F86-A06D-0DE52E4B1186}"
 EndProject

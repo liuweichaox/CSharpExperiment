@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liuweichao/Github/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj": {}
+    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj": {}
   },
   "projects": {
-    "/Users/liuweichao/Github/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj": {
+    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuweichao/Github/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj",
+        "projectUniqueName": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj",
         "projectName": "Autofac高级用法之动态代理",
-        "projectPath": "/Users/liuweichao/Github/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj",
+        "projectPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj",
         "packagesPath": "/Users/liuweichao/.nuget/packages/",
-        "outputPath": "/Users/liuweichao/Github/CSharpExperiment/Autofac高级用法之动态代理/obj/",
+        "outputPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/Autofac高级用法之动态代理/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/liuweichao/.nuget/NuGet/NuGet.Config"
@@ -63,11 +63,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

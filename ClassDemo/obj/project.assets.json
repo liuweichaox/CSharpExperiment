@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj",
+      "projectUniqueName": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj",
       "projectName": "ClassDemo",
-      "projectPath": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/ClassDemo.csproj",
+      "projectPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj",
       "packagesPath": "/Users/liuweichao/.nuget/packages/",
-      "outputPath": "/Users/liuweichao/Github/CSharpExperiment/ClassDemo/obj/",
+      "outputPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/liuweichao/.nuget/NuGet/NuGet.Config"
@@ -90,14 +90,23 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[5.0.12, 5.0.12]"
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -105,7 +114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
