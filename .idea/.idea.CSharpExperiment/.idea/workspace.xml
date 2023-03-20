@@ -22,6 +22,8 @@
     <projectFile>MyCICD/MyCICD.csproj</projectFile>
     <projectFile>Quartz.net/Quartz.net.csproj</projectFile>
     <projectFile>QueueDemo/QueueDemo.csproj</projectFile>
+    <projectFile>RabbitMQConsumerDemo/RabbitMQConsumerDemo.csproj</projectFile>
+    <projectFile>RabbitMQProducer/RabbitMQProducer.csproj</projectFile>
     <projectFile>ReflectionDemo/ReflectionDemo.csproj</projectFile>
     <projectFile>SendEmailDemo/SendEmailDemo.csproj</projectFile>
     <projectFile>ServiceStack.Redis/RedisDemo.csproj</projectFile>
@@ -65,70 +67,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AutofacDynamicProxyDemo/AutofacDynamicProxyDemo.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQConsumerDemo/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQConsumerDemo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/RabbitMQProducerDemo.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/Autofac高级用法之动态代理.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/Cat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/CatInterceptor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/CatProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/ICat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/bin/Debug/netcoreapp2.0/Autofac高级用法之动态代理.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/bin/Debug/netcoreapp2.0/Autofac高级用法之动态代理.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/bin/Debug/netcoreapp2.0/Autofac高级用法之动态代理.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/bin/Debug/netcoreapp2.0/Autofac高级用法之动态代理.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/bin/Debug/netcoreapp2.0/Autofac高级用法之动态代理.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Autofac高级用法之动态代理.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Debug/netcoreapp2.0/Autofac高级用法之动态代理.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Release/netcoreapp2.0/Autofac高级用法之动态代理.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Release/netcoreapp2.0/Autofac高级用法之动态代理.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/Release/netcoreapp2.0/Autofac高级用法之动态代理.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Autofac高级用法之动态代理/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpExperiment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpExperiment.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/ClassDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/DateTimeDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/Debug/netcoreapp2.0/DateTimeDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DateTimeDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Debug/netcoreapp2.0/Elasticsearch.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/Elasticsearch.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Elasticsearch/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/Debug/netcoreapp2.0/IPAddressDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/IPAddressDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/IPAddressDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/Debug/netcoreapp2.0/MongoDB.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/MongoDB.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Debug/netcoreapp2.0/Quartz.net.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/Quartz.net.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Quartz.net/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/Debug/netcoreapp2.0/QueueDemo.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/QueueDemo.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QueueDemo/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceStack.Redis/RedisDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceStack.Redis/RedisDemo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/委托/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DelegateDemo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/委托/委托.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DelegateDemo/DelegateDemo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/闭包/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClosureDemo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/闭包/闭包.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClosureDemo/ClosureDemo.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +86,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AutofacDynamicProxyDemo/CatInterceptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DelegateDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RabbitMQProducerDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -470,6 +416,42 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/QueueDemo/QueueDemo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQConsumerDemo" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/RabbitMQConsumerDemo/RabbitMQConsumerDemo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQProducer" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/RabbitMQProducerDemo/RabbitMQProducerDemo.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -969,7 +951,7 @@
       <workItem from="1664497947875" duration="2122000" />
       <workItem from="1666626249959" duration="751000" />
       <workItem from="1666876478295" duration="16000" />
-      <workItem from="1679321720468" duration="316000" />
+      <workItem from="1679321720468" duration="1467000" />
     </task>
     <servers />
   </component>
