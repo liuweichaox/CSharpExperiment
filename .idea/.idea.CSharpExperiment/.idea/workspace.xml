@@ -20,6 +20,9 @@
     <projectFile>MediatRDemo/MediatRDemo.csproj</projectFile>
     <projectFile>MongoDB/MongoDB.csproj</projectFile>
     <projectFile>MyCICD/MyCICD.csproj</projectFile>
+    <projectFile profileName="IIS Express">ObjectPoolDemo/ObjectPoolDemo.csproj</projectFile>
+    <projectFile profileName="http">ObjectPoolDemo/ObjectPoolDemo.csproj</projectFile>
+    <projectFile profileName="https">ObjectPoolDemo/ObjectPoolDemo.csproj</projectFile>
     <projectFile>Quartz.net/Quartz.net.csproj</projectFile>
     <projectFile>QueueDemo/QueueDemo.csproj</projectFile>
     <projectFile>RabbitMQConsumerDemo/RabbitMQConsumerDemo.csproj</projectFile>
@@ -67,11 +70,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b4dcfa1-62e5-4a9a-a481-cecc99755a6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RabbitMQConsumerDemo/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQConsumerDemo/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQProducerDemo/RabbitMQProducerDemo.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectPoolDemo/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectPoolDemo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpExperiment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpExperiment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpExperiment.sln" afterDir="false" />
     </list>
@@ -86,7 +86,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AutofacDynamicProxyDemo/CatInterceptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DelegateDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectPoolDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RabbitMQProducerDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1a0ba661a8a72bd081e492a60809284359b2ff4ddf4bfc93edc1b2cc5432/StringBuilderPooledObjectPolicy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e05640c06a36a67b91a5c626a34cbffd8f375dd9ca98bc35f2ad56d304b4477/EncoderServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,18 +127,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Channels">
     <configuration name="闭包" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -380,6 +383,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyCICD/MyCICD.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ObjectPoolDemo" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ObjectPoolDemo/ObjectPoolDemo.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -937,6 +958,51 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="ObjectPoolDemo: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ObjectPoolDemo/ObjectPoolDemo.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ObjectPoolDemo: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ObjectPoolDemo/ObjectPoolDemo.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ObjectPoolDemo: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ObjectPoolDemo/ObjectPoolDemo.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -951,7 +1017,8 @@
       <workItem from="1664497947875" duration="2122000" />
       <workItem from="1666626249959" duration="751000" />
       <workItem from="1666876478295" duration="16000" />
-      <workItem from="1679321720468" duration="1467000" />
+      <workItem from="1679321720468" duration="1859000" />
+      <workItem from="1679326077238" duration="2407000" />
     </task>
     <servers />
   </component>
