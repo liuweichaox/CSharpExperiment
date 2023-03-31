@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj": {}
+    "C:\\Users\\cihon\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj": {}
   },
   "projects": {
-    "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj": {
+    "C:\\Users\\cihon\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj",
+        "projectUniqueName": "C:\\Users\\cihon\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
         "projectName": "ClassDemo",
-        "projectPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/ClassDemo.csproj",
-        "packagesPath": "/Users/liuweichao/.nuget/packages/",
-        "outputPath": "/Users/liuweichao/Documents/GitHub/CSharpExperiment/ClassDemo/obj/",
+        "projectPath": "C:\\Users\\cihon\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\ClassDemo.csproj",
+        "packagesPath": "C:\\Users\\cihon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cihon\\Documents\\GitHub\\CSharpExperiment\\ClassDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/liuweichao/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cihon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,11 +62,15 @@
               "version": "[5.0.0, 5.0.0]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[5.0.17, 5.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[5.0.0, 5.0.0]"
             }
           ],
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
